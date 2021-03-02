@@ -1,31 +1,6 @@
 # vpngate-with-proxy
-VPN GATE client for linux
-* Be able to connect to open vpn servers at **http://www.vpngate.net/en/** directly or through proxy
-* Auto add DNS to fix DNS leak.
-* Auto filter out dead VPN servers.
-* Can execute user defined script after vpn_tunnel is established or broken.
+VPN GATE client for Windows
 
-**Note**:
-Work on Debian and Redhat based system. 
-~~Tested on **Ubuntu**, **Raspbian**, **Fedora**, **Bunsen**~~.
- New commit (2020/04/28) fixed it to work with python 3.6+ and only tested on **Ubuntu 20.04**.
-
-
-I will wrap SoftEther_vpn later when I have time. You are welcome to fork this repo and wrap SoftEther_vpn yourself.
-
-**Indicator**: is optional.  
-
-<img  align="right" src="https://s19.postimg.org/5l77q2q83/8indicator.png">
-
-Tested on Ubuntu and is only enabled by default on Ubuntu.
-
-For other unix os, you need to modify the `run` file and install packages below:
-
-    sudo apt-get install gir1.2-appindicator3-0.1 gir1.2-notify-0.7 python-gobject
-
-
-If you have any trouble or request about the program, 
-please make a new issue at https://github.com/Dragon2fly/vpngate-with-proxy/issues
 
 
 
